@@ -154,6 +154,9 @@ BOARD_NFC_CHIPSET := pn547
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
+# Radio
+TARGET_RIL_VARIANT := caf
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.recovery
 
